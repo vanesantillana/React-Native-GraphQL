@@ -11,7 +11,7 @@ import { InMemoryCache } from 'apollo-cache-inmemory';
 
 const cache = new InMemoryCache();
 const GITHUB_BASE_URL = 'https://api.github.com/graphql';
-const GITHUB_TOKEN = 'ce459a4dc890646d396f92146e4599169c1bf6e3';
+const GITHUB_TOKEN = 'token_aqui';
 
 const httpLink = new HttpLink({
   uri: GITHUB_BASE_URL,
